@@ -1,0 +1,443 @@
+body {
+    font-family: Arial;
+}
+
+/* Navbar style here */
+#navbar {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+#navbar img {
+    width: 15%;
+
+}
+
+#navtext a {
+    text-decoration: none;
+    margin: 3%;
+    color: rgb(0, 0, 0);
+}
+
+#navtext a:hover {
+    transition: 1s;
+    color: orangered;
+    border-bottom: 2px solid orangered;
+}
+
+#navtext nav {
+    margin-top: 2.5%;
+}
+
+#navtext {
+    width: 60%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+#navimg {
+    width: 25%;
+    text-align: center;
+}
+
+/* banner style here */
+#banner {
+    background-image: url(../img/lux4.webp);
+    background-repeat: repeat-x;
+    background-size: 100%;
+    width: 100%;
+}
+
+#baner {
+    background-color: rgba(31, 31, 31, 0.61);
+}
+
+#bannerdiv {
+    padding: 10%;
+    margin-left: 45%;
+    /* float: right;  */
+    display: flex;
+}
+
+
+#banner h1 {
+    color: white;
+}
+
+#banner p {
+    color: white;
+}
+
+
+#banner1 {
+    /* background-color: red; */
+    width: 30%;
+}
+
+#bannerp {
+    /* background-color: green; */
+    width: 100%;
+}
+
+#bannerp button {
+    padding: 5%;
+    width: 50%;
+    margin-top: 5%;
+    border-radius: 10px;
+    background-color: rgb(231, 150, 0);
+    border: none;
+}
+
+#bannerp button:hover {
+    background-color: orangered;
+    color: white;
+    transition: 1s;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#vert {
+    width: 30%;
+}
+
+#banner1 {
+    width: 100%;
+}
+
+#bacck {
+
+    background-color: #ccc;
+    padding: 2%;
+}
+
+#backkdis {
+    display: flex;
+}
+
+#backt {
+    width: 30%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: -3%;
+    padding: 4% 1%;
+    box-shadow: 5px 5px 15px 1px gray;
+}
+
+#bckim {
+    /* background-image: url(../img/Untitled-1.png); */
+    background-color: orange;
+    width: 15%;
+    margin: auto;
+    padding: 6% 3%;
+    border-radius: 60%;
+    margin-top: -20%;
+}
+
+/* Third banner style */
+#third {
+    background-color: orange;
+    padding: 3%;
+}
+
+#third1 img {
+    width: 15%;
+    margin-left: 80%;
+}
+
+#third3 img {
+    width: 100%;
+}
+
+#third3 {
+
+    width: 70%;
+    margin-top: -23%;
+    margin-left: 17%;
+}
+
+#third2 img {
+    width: 15%;
+
+}
+
+#fourdiv {
+    background-color: white;
+    width: 20%;
+    padding: 10% 3%;
+    margin-left: 70%;
+    position: relative;
+    top: -200px;
+    z-index: 1;
+    box-shadow: 5px 5px 15px 1px gray;
+}
+
+#fourdiv button {
+    padding: 5%;
+    width: 50%;
+    margin-top: 5%;
+    border-radius: 10px;
+    background-color: rgb(231, 150, 0);
+    border: none;
+}
+
+#fourdiv button:hover {
+    background-color: orangered;
+    color: white;
+    transition: 1s;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/* fourth BAnner style */
+#ele1 {
+    display: flex;
+    /* margin-left: 5%; */
+}
+
+#elewhite {
+    background-color: white;
+    box-shadow: 5px 5px 15px 1px gray;
+    display: flex;
+    width: 40%;
+    margin: auto;
+    padding: 3%;
+}
+
+#eley {
+    background-color: orange;
+    width: 30%;
+}
+
+#elewhite p {
+    width: 70%;
+    margin-left: 15%;
+}
+
+#ash {
+    padding: 5%;
+}
+
+#elewhite1 {
+    background-color: white;
+    box-shadow: 5px 5px 15px 1px gray;
+    display: flex;
+    width: 40%;
+    margin: auto;
+    padding: 3%;
+    margin-top: 10%;
+    position: relative;
+    z-index: 1;
+}
+
+#elewhite1 button {
+    padding: 3%;
+    width: 30%;
+    margin-top: 5%;
+    border-radius: 10px;
+    background-color: rgb(231, 150, 0);
+    border: none;
+}
+
+#elewhite1 button:hover {
+    background-color: orangered;
+    color: white;
+    transition: 1s;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#img1 {
+    position: relative;
+    top: -202px;
+    margin-left: 5%;
+}
+
+#img2 {
+    position: relative;
+    top: -602px;
+    margin-left: 50%;
+}
+
+#img3 {
+    position: relative;
+    top: -702px;
+    margin-left: 20%;
+}
+
+#img4 {
+    position: relative;
+    top: -802px;
+    margin-left: 60%;
+}
+
+#scaterimg {
+    height: 1500px;
+}
+
+#img5 {
+    margin-top: -25%;
+}
+
+#writte {
+    display: flex;
+}
+
+/* Fifth banner style here */
+#fifth {
+    background-color: orange;
+    padding: 5%;
+    height: 1000px;
+}
+
+#circle {
+    width: 10%;
+    margin-left: 80%;
+}
+
+#fifthback {
+    background-color: white;
+    width: 20%;
+    padding: 4% 2%;
+    margin-left: 60%;
+    position: relative;
+    z-index: 1;
+    box-shadow: 5px 5px 15px 1px gray;
+}
+
+#fifthback button {
+    padding: 3%;
+    width: 30%;
+    margin-top: 5%;
+    border-radius: 10px;
+    background-color: rgb(231, 150, 0);
+    border: none;
+}
+
+#fifthback button:hover {
+    background-color: orangered;
+    color: white;
+    transition: 1s;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#lux9 {
+    width: 60%;
+    position: relative;
+    top: -502px;
+    margin-left: 15%;
+}
+
+#backkk {
+    width: 30%;
+    background-color: #ccc;
+    box-shadow: 5px 5px 15px 1px gray;
+    padding: 9%;
+    margin-left: 40%;
+    position: relative;
+    top: -702px;
+}
+
+/* sixth banner style */
+#ash2 {
+    background-color: #ccc;
+    height: 2300px;
+}
+
+#imgb {
+    width: 50%;
+    margin-left: 30%;
+    margin-top: 19%;
+}
+
+#imbc {
+    position: relative;
+    top: -852px;
+    margin-left: 7%;
+}
+
+#fifthbackk {
+    background-color: white;
+    width: 20%;
+    padding: 9% 4%;
+    margin-left: 20%;
+    position: relative;
+    z-index: 1;
+    top: -500px;
+    box-shadow: 5px 5px 15px 1px gray;
+}
+
+#fifthbackk button {
+    padding: 3%;
+    width: 30%;
+    margin-top: 5%;
+    border-radius: 10px;
+    background-color: rgb(231, 150, 0);
+    border: none;
+}
+
+#fifthbackk button:hover {
+    background-color: orangered;
+    color: white;
+    transition: 1s;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#lux3 {
+    margin-left: 20%;
+    position: relative;
+    z-index: 1;
+    top: -500px;
+}
+
+#lux8 {
+    position: relative;
+    top: -850px;
+}
+
+/* Form div style here */
+#formdiv {
+    background-color: orange;
+    padding: 5%;
+}
+
+#form {
+    background-color: white;
+    width: 40%;
+    margin-left: 55%;
+    padding: 3%;
+}
+
+#form input {
+    width: 85%;
+    padding: 4%;
+    margin: 3%;
+    border: none;
+    background-color: #ccc;
+}
+
+#form textarea {
+    margin-left: 3.5%;
+    margin: 3%;
+    border: none;
+    background-color: #ccc;
+}
+
+#form button {
+    margin: 3%;
+    padding: 4%;
+    background-color: orange;
+    border: none;
+    width: 93%;
+    font-size: larger;
+}
+
+#form button:hover {
+    background-color: orangered;
+    color: white;
+    transition: 1s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
